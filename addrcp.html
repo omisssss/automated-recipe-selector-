@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width", initial-scale="1.0">
+    <title>Document</title>
+</head>
+
+
+<link rel="stylesheet" href="css/omcss1.css">
+
+
+<nav class="navbar background">
+    <ul class="nav-list">
+        <div class="logo"><img src="bmp\omimg.jpg" alt="logo"></div>
+
+      
+      <li><a href ="about.html">ABOUT </a></li>
+      <li><a href ="login.html">LOGIN </a></li>
+      <li><a href ="ingred.html">INGREDIENTS </a> </li>
+      <li><a href ="index.html">HOME </a></li>
+     <!--<li><a href ="bkground.html">background test </a></li>-->
+    </ul>
+    <div class="rightnav">
+      <img src="bmp\omlet1.png" id="cooka" width="60" height="60">
+    
+<!--<input type="text" name="search" id="search">
+<button class="btn">Search</button>-->
+
+    </div>
+</nav>
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+    <div class="bg-image img1" ></div>
+    <div class="bg-image img2"></div>
+    <div class="bg-image img3"></div>
+    <div class="bg-image img4"></div>
+    <div class="bg-image img5"></div>
+    <div class="bg-image img6"></div>
+    
+   
+
+      
+<form action="addrec.php" method="post" class="adds" form id="formedd">
+  <img src="bmp\chopstick.png" id="cooka" width="90" height="60"> 
+  <h2>Add Your Recipe</h2> <br> 
+Recipe Name: <input type="text" name="rname"><br><br>
+Recipe Category 
+
+<select name="rcpcat" id="rcpcat">
+    <option value="Veg"> Veg   </option>
+    <option value="Non-Veg"> Non-Veg </option>
+    <option value="All ( vog and Non-Veg)"> All </option> 
+    </select>
+<br> <br>
+
+Ingredient 1 <input type="text" name="ig1"><br><br>
+Ingredient 2 <input type="text" name="ig2"><br><br>
+Ingredient 3 <input type="text" name="ig3"><br><br>
+Procedure 
+<textarea id="pro" name="procedure" rows="6" cols="90">
+  
+</textarea> <br> <br>
+<input type="submit">
+
+
+
+
+</form>
+
+
+<style>
+
+.adds {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 700px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 { background-image: url("bmp/fooded8.jpg"); }
+.img2 { background-image: url("bmp/fooded9.jpg"); }
+.img3 { background-image: url("bmp/fooded2.jpg"); }
+.img4 { background-image: url("bmp/fooded3.jpg"); }
+.img5 { background-image: url("bmp/fooded4.jpg"); }
+.img6 { background-image: url("bmp/fooded5.jpg"); }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+</style>
+
+
+</body>
+</html>
+    
